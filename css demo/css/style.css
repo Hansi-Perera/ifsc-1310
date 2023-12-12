@@ -1,0 +1,152 @@
+body {
+    font-family: 'Arial', sans-serif;
+    font-weight: normal;
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+}
+
+header.primary {
+    background: linear-gradient(to right, #2c3e50, #3498db);
+    color: #fff;
+    padding: 20px;
+}
+
+header.primary h1 a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 28px;
+}
+
+header.primary h2 {
+    font-weight: bold;
+    font-size: 24px;
+}
+
+header.primary nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+header.primary nav ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+header.primary nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav[role="navigation"] {
+    background-color: #e74c3c;
+    padding: 10px;
+    text-align: center;
+    border-radius: 8px;
+}
+
+nav[role="navigation"] ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav[role="navigation"] ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav[role="navigation"] ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.container {
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+#intro h2,
+#content h2 {
+    font-weight: bold;
+    font-size: 32px;
+    color: #333;
+}
+
+#intro p,
+#content p {
+    line-height: 1.8;
+    color: #555;
+}
+
+.post header h2 a {
+    color: #3498db;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.post p {
+    font-weight: normal;
+    color: #777;
+}
+
+.post footer.post-meta {
+    font-style: italic;
+    color: #999;
+}
+
+aside[role="complementary"] {
+    background-color: #ecf0f1;
+    padding: 15px;
+}
+
+aside[role="complementary"] .widget {
+    margin-bottom: 15px;
+}
+
+aside[role="complementary"] .widget h2 {
+    color: #333;
+    font-weight: bold;
+}
+
+footer#colophon {
+    background: linear-gradient(to right, #333, #555);
+    color: #fff;
+    text-align: center;
+    padding: 15px;
+}
+
+footer#colophon nav[role="navigation"] {
+    background-color: #222;
+    padding: 10px;
+    text-align: center;
+    margin-top: 15px;
+}
+
+footer#colophon nav[role="navigation"] ul {
+    margin: 0;
+    padding: 0;
+}
+
+footer#colophon nav[role="navigation"] ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+footer#colophon nav[role="navigation"] ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header.primary nav ul li a:hover {
+    color: #f39c12;
+    transition: color 0.3s ease;
+}
+
+.post header h2 a:hover {
+    text-decoration: underline;
+}
