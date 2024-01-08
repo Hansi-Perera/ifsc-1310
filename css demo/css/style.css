@@ -1,14 +1,14 @@
 body {
     font-family: 'Arial', sans-serif;
     font-weight: normal;
-    font-size: 18px;
+    font-size: 16px; /* Reduced the base font size */
     margin: 0;
     padding: 0;
-    background-color: #f8f8f8;
+    background-color: #f4f4f4; /* Adjusted the background color */
 }
 
 header.primary {
-    background: linear-gradient(to right, #2c3e50, #3498db);
+    background: linear-gradient(to right, #4b0082, #8a2be2); /* Changed gradient colors */
     color: #fff;
     padding: 20px;
 }
@@ -17,136 +17,102 @@ header.primary h1 a {
     color: #fff;
     text-decoration: none;
     font-weight: bold;
-    font-size: 28px;
+    font-size: 32px; /* Increased the font size */
 }
 
 header.primary h2 {
     font-weight: bold;
-    font-size: 24px;
-}
-
-header.primary nav ul {
-    list-style: none;
-    padding: 0;
-}
-
-header.primary nav ul li {
-    display: inline;
-    margin-right: 15px;
+    font-size: 28px; /* Increased the font size */
 }
 
 header.primary nav ul li a {
     color: #fff;
     text-decoration: none;
     font-weight: bold;
+    font-size: 18px; /* Increased the font size */
 }
 
 nav[role="navigation"] {
-    background-color: #e74c3c;
+    background-color: #ff6347; /* Changed the background color */
     padding: 10px;
     text-align: center;
     border-radius: 8px;
-}
-
-nav[role="navigation"] ul {
-    list-style: none;
-    padding: 0;
-}
-
-nav[role="navigation"] ul li {
-    display: inline;
-    margin-right: 10px;
 }
 
 nav[role="navigation"] ul li a {
     color: #fff;
     text-decoration: none;
     font-weight: bold;
+    font-size: 16px; /* Adjusted the font size */
 }
 
 .container {
-    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3); /* Adjusted the box shadow */
 }
 
 #intro h2,
 #content h2 {
     font-weight: bold;
-    font-size: 32px;
-    color: #333;
+    font-size: 36px; /* Increased the font size */
+    color: #4CAF50; /* Changed the color */
 }
 
 #intro p,
 #content p {
-    line-height: 1.8;
-    color: #555;
+    line-height: 1.6; /* Adjusted the line height */
+    color: #333;
 }
 
 .post header h2 a {
-    color: #3498db;
+    color: #1e90ff; /* Changed the color */
     text-decoration: none;
     font-weight: bold;
-    font-size: 24px;
+    font-size: 22px; /* Adjusted the font size */
 }
 
 .post p {
     font-weight: normal;
-    color: #777;
+    color: #555; /* Adjusted the color */
 }
 
 .post footer.post-meta {
     font-style: italic;
-    color: #999;
+    color: #777; /* Adjusted the color */
 }
 
 aside[role="complementary"] {
-    background-color: #ecf0f1;
+    background-color: #ffd700; /* Changed the background color */
     padding: 15px;
 }
 
-aside[role="complementary"] .widget {
-    margin-bottom: 15px;
-}
-
 aside[role="complementary"] .widget h2 {
-    color: #333;
-    font-weight: bold;
+    color: #8B4513; /* Changed the color */
 }
 
 footer#colophon {
-    background: linear-gradient(to right, #333, #555);
+    background: linear-gradient(to right, #483D8B, #800080); /* Changed gradient colors */
     color: #fff;
     text-align: center;
     padding: 15px;
 }
 
 footer#colophon nav[role="navigation"] {
-    background-color: #222;
+    background-color: #4B0082; /* Changed the background color */
     padding: 10px;
     text-align: center;
     margin-top: 15px;
-}
-
-footer#colophon nav[role="navigation"] ul {
-    margin: 0;
-    padding: 0;
-}
-
-footer#colophon nav[role="navigation"] ul li {
-    display: inline;
-    margin-right: 10px;
 }
 
 footer#colophon nav[role="navigation"] ul li a {
     color: #fff;
     text-decoration: none;
     font-weight: bold;
+    font-size: 16px; /* Adjusted the font size */
 }
 
-header.primary nav ul li a:hover {
-    color: #f39c12;
-    transition: color 0.3s ease;
-}
-
+header.primary nav ul li a:hover,
 .post header h2 a:hover {
+    color: #FFD700; /* Changed the hover color */
     text-decoration: underline;
+    transition: color 0.3s ease;
 }

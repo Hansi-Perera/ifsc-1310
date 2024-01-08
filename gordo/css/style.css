@@ -1,0 +1,27 @@
+body {
+    background-color: #f0f8ff; 
+    margin: 20px;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  h1, h2, h3, p, li {
+    color: #333;
+  }
+  
+  h1, h2 {
+    font-weight: bold;
+  }
+  
+  section {
+    margin-bottom: 20px;
+  }
+  
+  a {
+    color: #007BFF;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  a:hover {
+    color: #0056b3;
+  }
